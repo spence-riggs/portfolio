@@ -5,6 +5,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+img{
+    text-align: center;
+    margin: 25px auto;
+    width: 150px;
+}
+
 .container{
     width: 100%;
     height: 100vh;
@@ -38,6 +48,10 @@ form input, form textarea{
     background: #fff;
     font-style: 16px;
 }
+form p{
+    text-align: center;
+    line-height: 1.5;
+}
 
 form button{
     padding: 15px;
@@ -51,3 +65,21 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+
+.return-home-btn{
+    background-color: #1ad2d8;
+    color: #000;
+    border-radius: 10px;
+    border: #373a40 solid 2px;
+    margin: 15px auto;
+    padding: 6px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.return-home-btn:hover{
+    background-color:#373a40;
+    color: #1ad2d8;
+}
+
+

@@ -22,36 +22,19 @@
             <input type="text" name="_honey" style="display: none;">
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false">
+            <!-- Success Message Link -->
             <input type="hidden" name="_next" value="https://spence-riggs.github.io/portfolio/contact.html">
-            <h3>Get in Touch</h3>
+            <h1>Get in Touch</h1>
+            <img src="images/logo-transparent-crop.png" alt="logo-img">
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Email" required>
-            <!-- <input type="text" id="phone" placeholder="Phone Number"> -->
+            <input type="text" id="phone" placeholder="Phone Number">
             <textarea name="message" name="message" rows="4" placeholder="What can I do for you?"></textarea>
             
-            <button type="submit">Send</button>
+            <button class="return-home-btn" type="submit">Send</button>
         </form>
     </div>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com",
-                Username: "spenceriggs@gmail.com",
-                Password: "gmfhompqnfjoxrri",
-                To: 'spenceriggs@gmail.com',
-                From: document.getElementById('email').value,
-                Subject: "New Message From: " + document.getElementById('name').value,
-                Body: "Name: " + document.getElementById('name').value 
-                    + "<br>Email: " + document.getElementById('email').value
-                    + "<br>Phone: " + document.getElementById('phone').value
-                    + "<br>Message: " + document.getElementById('message').value
-            }).then(
-                message => alert("Message Sent Successfully")
-            );
-        }
-    </script>
 </body>
 
 </html>
