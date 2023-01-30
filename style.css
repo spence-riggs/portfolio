@@ -361,6 +361,10 @@ footer p {
 }
 
 @media only screen and (max-width: 767px){
+    #about-me p{
+        font-size: 1rem;
+    }
+    
     .navbar-nav{
         text-align: center;
         background: #373a40bd;
