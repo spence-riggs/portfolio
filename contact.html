@@ -18,7 +18,10 @@
 <body>
     <div class="container">
         <form  method="post" action="https://formsubmit.co/074462bf34aabf50b4a3249fa4dbafbe">
-        <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
             <h3>Get in Touch</h3>
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Email" required>
