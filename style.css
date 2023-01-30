@@ -254,14 +254,17 @@ p{
 }
 
 
-#contact-me-btn{
+.contact-me-btn{
     background-color: #1ad2d8;
+    color: #000;
     border-radius: 10px;
+    border: #373a40 solid 2px;
     padding: 6px 30px;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
-#contact-me-btn:hover{
+.contact-me-btn:hover{
     background-color:#373a40;
     color: #1ad2d8;
 }
