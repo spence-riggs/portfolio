@@ -12,6 +12,16 @@ p{
     font-family: 'Ubuntu', sans-serif;
 }
 
+hr{
+    width:50%;
+    margin: 0 auto;
+    border: 15px dotted #373a40;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+    
+}
+
 
 /* Navbar Section */
 .navbar-brand span{
@@ -32,6 +42,7 @@ p{
     border-color: #373a40;
     border-style: solid;
     border-radius: 100px;
+    margin-bottom: 25px;
     position: relative;
     z-index: 1;
 }
@@ -87,12 +98,17 @@ p{
     padding-bottom: 50px;
 }
 
+#skills ul li:before {
+    content: '✓ ';
+  }
+
 #skills h3{
     text-align: left;
     padding-bottom: 25px;
 }
 
 #skills p{
+    font-size: 1.4rem;
     text-align: left;
 }
 
@@ -133,8 +149,8 @@ p{
 }
 
 #projects p{
-    padding-bottom: 25px;
     font-size: 2rem;
+    line-height: 1;
     position: relative;
     z-index: 1;
 }
@@ -144,6 +160,11 @@ p{
     right: 20px;
     top: 50px;
     height: 85%;
+}
+
+.project-item{
+    color: #373a404c;
+    padding-bottom: 25px;
 }
 
 /* Tech-certs */
@@ -172,7 +193,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 75vh;
     background-color: #fff;
 }
 
@@ -357,14 +378,14 @@ footer p {
     padding: 1px 5px;
     font-size: 1rem;
     line-height: 0.3;
-    background: #fff;
+    border: none;
 }
 
 @media only screen and (max-width: 767px){
     #about-me p{
         font-size: 1rem;
     }
-    
+
     .navbar-nav{
         text-align: center;
         background: #373a40bd;
@@ -381,6 +402,9 @@ footer p {
     }
     #background-img{
         visibility: hidden;
+    }
+    .skill-box{
+        padding-bottom: 60px;
     }
 }
 
