@@ -280,8 +280,10 @@ hr{
     border-radius: 10px;
     border: #373a40 solid 2px;
     padding: 6px 30px;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .contact-me-btn:hover{
@@ -315,7 +317,7 @@ footer p {
     min-height: 300px;
 }
 .carousel-caption{
-    bottom: 20%;
+    top: 30%;
 }
 
 .carousel-caption h5 {
@@ -337,6 +339,7 @@ footer p {
     text-decoration: none;
     background: #1ad2d8;
     border-radius: 10px;
+    border: #373a40 solid 2px;
     padding: 6px 30px;
     display: inline-block;
     color: #373a40;
@@ -390,7 +393,7 @@ footer p {
         background: #373a40bd;
     }
     .carousel-caption{
-        bottom: 165px;
+        top: 30%;
     }
     .carousel-caption h5{
         font-size: 2rem;
@@ -404,6 +407,9 @@ footer p {
     }
     .skill-box{
         padding-bottom: 60px;
+    }
+    #skils{
+        padding: 25% 15% 0%;
     }
     hr{
         width:100%;
