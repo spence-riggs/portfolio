@@ -95,7 +95,7 @@ hr{
     content: '✓ ';
   }
 
-.skill-box h3{
+.skills-sub-head {
     color:#eeeeee;
     line-height: 1.5;
     text-align: center;
