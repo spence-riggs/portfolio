@@ -416,4 +416,8 @@ footer p {
         border: 4px solid #373a40; 
         color: #373a40; 
     }
+    #home p {
+        font-size: 1rem;
+        padding-top: 5px;
+    }
 }
