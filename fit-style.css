@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(179, 56, 56);
+}
+#reload-info {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.243);
+  visibility: hidden;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+select {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-size: 28rem;
+  font-weight: bold;
+  color: rgb(179, 56, 56);
+  height: 60%;
+}
+table {
+  margin: auto;
+}
+label {
+  color: white;
+  font-size: 14pxpx;
+}
+#dot-1 {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: auto 100px;
+  visibility: hidden;
+}
+#dot-2 {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: auto 100px;
+  visibility: hidden;
+}
+#dot-3 {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: auto 100px;
+  visibility: hidden;
+}
